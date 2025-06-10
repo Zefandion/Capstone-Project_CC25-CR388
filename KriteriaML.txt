@@ -1,0 +1,25 @@
+Kriteria utama:
+
+- Menggunakan arsitektur TensorFlow untuk membangun model Machine Learning.
+
+- Membuat kode sederhana untuk proses inferensi.
+
+- Tidak menggunakan model yang sudah ada dari TensorFlow Hub dan sumber serupa.
+
+- Tidak menggunakan model secara langsung dari layanan API seperti ChatGPT API, Gemini API, dll.
+
+- Tidak menggunakan AutoML untuk membuat model AI diskriminatif (Vertex AI hanya diperbolehkan untuk kasus penggunaan AI Generatif).
+
+
+
+Kriteria optional(jika tidak memungkinkan atau menjadi rumit, tidak usah)
+
+- Disarankan untuk membangun dua model jika ingin menggunakan alat seperti Vertex AI.
+
+- Model Pertama: Gunakan TensorFlow untuk membangun model (Transfer Learning diperbolehkan).
+
+- Model Kedua: Gunakan Vertex AI untuk kasus penggunaan AI Generatif.
+
+- Sangat disarankan untuk membuat model sendiri atau melakukan fine-tuning sendiri saat menyelesaikan kasus penggunaan AI Generatif.
+
+- Membuat antarmuka (interface) untuk melakukan inferensi pada model machine learning (Opsional, ditujukan untuk tim yang tidak memiliki anggota FEBE)
