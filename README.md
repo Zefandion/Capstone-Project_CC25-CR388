@@ -1,21 +1,22 @@
 # Capstone-Project_CC25-CR388
 
-Prediktor Risiko Diabetes Berbasis Jaringan Saraf Tiruan
+**Prediktor Risiko Diabetes Berbasis Jaringan Saraf Tiruan**
 
 Sebuah proyek full-stack machine learning untuk memprediksi risiko penyakit diabetes pada pasien berdasarkan beberapa atribut kesehatan. Proyek ini mencakup model deep learning yang dibangun dengan TensorFlow, disajikan melalui API back-end yang dibuat dengan FastAPI, dan diakses melalui antarmuka web interaktif yang dibangun dengan SolidJS.
 
-📖 Deskripsi Proyek
+📖 **Deskripsi Proyek**
 Tujuan utama proyek ini adalah membangun sebuah model klasifikasi biner yang andal untuk membantu dalam deteksi dini penyakit diabetes. Model ini dilatih pada dataset yang berisi 8 fitur kesehatan utama. Salah satu fokus utama dalam pengembangan model adalah memaksimalkan metrik recall untuk kelas positif (penderita diabetes), guna meminimalkan risiko kasus yang terlewatkan (false negatives), yang sangat krusial dalam konteks medis.
 
 Proyek ini mencakup seluruh alur kerja data science, mulai dari pembersihan data, preprocessing, pelatihan model, evaluasi, hingga deployment sebagai aplikasi web yang fungsional.
 
-✨ Fitur Utama
+✨ **Fitur Utama**
 Model Deep Learning: Menggunakan arsitektur Jaringan Saraf Tiruan (Neural Network) dengan TensorFlow dan Keras.
 Penanganan Data Tidak Seimbang: Implementasi teknik class_weight untuk meningkatkan performa model pada kelas minoritas, menghasilkan recall sebesar 91%.
 API Back-end: Server API yang efisien dibangun menggunakan FastAPI untuk melayani permintaan prediksi.
 Antarmuka Web Interaktif: Front-end yang responsif dan mudah digunakan dibangun dengan SolidJS, memungkinkan pengguna memasukkan data dan menerima hasil prediksi secara real-time.
 Arsitektur Client-Server: Pemisahan yang jelas antara logika machine learning (Back-End) dan antarmuka pengguna (Front-End).
-🏗️ Arsitektur Proyek
+
+🏗️ **Arsitektur Proyek**
 Proyek ini terdiri dari dua komponen utama yang berjalan secara terpisah:
 
 Back-End (API Server - diabetes_api):
@@ -46,7 +47,8 @@ SolidJS
 Vite
 JavaScript (JSX)
 HTML/CSS
-🚀 Panduan Instalasi dan Menjalankan
+
+🚀 **Panduan Instalasi dan Menjalankan**
 Untuk menjalankan proyek ini secara lokal, Anda perlu menjalankan Back-End dan Front-End secara terpisah di dua terminal yang berbeda.
 
 1. Menjalankan Back-End (Server API)
