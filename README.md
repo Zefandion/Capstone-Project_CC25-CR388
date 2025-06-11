@@ -1,5 +1,7 @@
 # Capstone-Project_CC25-CR388
 
+Dataset yang digunakan: https://www.kaggle.com/datasets/717451f4573e9c3d8963e626808ade67a89fbd2ee660be008c1aba16b2a2345a 
+
 **Prediktor Risiko Diabetes Berbasis Jaringan Saraf Tiruan**
 
 Sebuah proyek full-stack machine learning untuk memprediksi risiko penyakit diabetes pada pasien berdasarkan beberapa atribut kesehatan. Proyek ini mencakup model deep learning yang dibangun dengan TensorFlow, disajikan melalui API back-end yang dibuat dengan FastAPI, dan diakses melalui antarmuka web interaktif yang dibangun dengan SolidJS.
