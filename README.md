@@ -61,6 +61,7 @@ Navigasi ke Folder Proyek Utama.
 Bash
 
 cd /path/to/your/Capstone Project
+
 Buat dan Aktifkan Virtual Environment:
 
 Pastikan Anda memiliki Python 3.11 terinstal.
@@ -69,7 +70,9 @@ Pastikan Anda memiliki Python 3.11 terinstal.
 Bash
 
 py -3.11 -m venv venv
+
 .\venv\Scripts\activate
+
 Install Dependensi Python:
 
 Bash
@@ -83,9 +86,11 @@ Jalankan Server API:
 Bash
 
 uvicorn main:app --reload
+
 Server akan berjalan di http://127.0.0.1:8000. Biarkan terminal ini tetap terbuka.
 
 2. Menjalankan Front-End (Website SolidJS)
+   
 Buka Terminal BARU.
 
 Navigasi ke Folder Front-End:
@@ -93,19 +98,23 @@ Navigasi ke Folder Front-End:
 Bash
 
 cd /path/to/your/Capstone Project/diabetes-webapp-jsx
+
 Install Dependensi Node.js (jika belum):
 
 Bash
 
 npm install
+
 Jalankan Server Pengembangan Front-End:
 
 Bash
 
 npm run dev
+
 Server akan memberikan URL, biasanya http://localhost:5173.
 
 Buka Aplikasi:
 
 Buka URL (http://localhost:5173) di browser Anda.
+
 Anda sekarang dapat berinteraksi dengan form, memasukkan data, dan mendapatkan hasil prediksi langsung dari model Anda.
