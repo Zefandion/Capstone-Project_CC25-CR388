@@ -78,9 +78,11 @@ Install Dependensi Python:
 Bash
 
 pip install "fastapi[all]" uvicorn tensorflow scikit-learn joblib pandas
+
 Pastikan File Model Ada:
 
 Pastikan file diabetes_model.keras dan scaler.pkl berada di direktori utama proyek.
+
 Jalankan Server API:
 
 Bash
