@@ -1,0 +1,22 @@
+Kriteria FEBE:
+ 
+kriteria utama:
+- Build responsive layout web apps for all device screen sizes.
+- Implement networking calls to interact with the project's API.
+- Using module bundler (webpack, Vite, etc.) to build your web app project.
+- Building RESTful API to support Front-End App.
+- The RESTful API can save data with or without a database.
+- Creating RESTful APIs with URLs designed to match standard conventions.
+- Integrate AI/ML capabilities as the app’s main feature, either via on-back-end app or directly on-device (browser).
+- Ensure the implementation of the main features you aim to address in the project without causing the application to crash.
+- Students are prohibited from using web generators for front-end or back-end applications.
+- Deploy your web app to a server. Hosting recommendation: GitHub Pages, Netlify, Vercel.
+
+kriteria sampingan:
+- App mockup: create a visual representation of the app’s design and user interface.
+- Use animation transitions and beautiful assets that suit the app’s purpose.
+- Utilize the MVP architecture (Model-View-Presenter) throughout the web app project.
+- Meet all mandatory characteristics to your web apps to become PWA.
+- The RESTful API can save data to the database.
+- The RESTful API was built with the Hapi Framework.
+- Tools recommendation for boosting your web app development: Bootstrap/Tailwind CSS, Axios.
